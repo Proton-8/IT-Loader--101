@@ -2,10 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +35,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to bottom, #56ccf2, #2f80ed);
+  background-size: 20% 20%;
+  animation: Gradient 10s ease infinite;
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20%;
+  height: 20%;
+  background: linear-gradient(
+    20deg,
+    #ee765225,
+    #e73c7e4c,
+    #23a6d5,
+    #23d5ab,
+    #ee7752,
+    #e73c7e48,
+    #23a5d54c,
+    #23d5ab
+  ); 
+  
+  background-size: 200% 200%;
+}
+
+.logo{
+  width: 10%;
+ 
+}
+
+.logo2{
+  width: 5%;
+ 
 }
