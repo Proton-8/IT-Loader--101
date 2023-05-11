@@ -1,25 +1,27 @@
+import { Grid, Typography } from "@material-ui/core";
+import GameCard from "./GameCard";
 
-import React, { Fragment } from 'react';
+export const GameList = ({ games }) => {
+  // if (!games.length) {
+  //       return <Typography variant="h4">Loading...</Typography>;
+  //     }
 
-// take our props(project)
-export const ShowCard = (project) => {
-    return (
-        // Set up style and format for the card itself. 
-        <Fragment>
-            <figure>
-                <img className="rounded" src={project.venueImg} alt="placeholder"></img>
-            </figure>
-            <div className="ml-25">
-                <h2>
-                    {project.venue}
-                </h2>
-                <p>
-                    {project.desc}
-                </p>
-                <p>
-                    <a className="btn btn-dark" href={project.href}>View App</a>
-               </p>
-            </div>
-        </Fragment>
-    )
+  return (
+    <div>
+      {/* <Grid container spacing={3}>
+     {games.map((game) => (
+        <Grid item xs={12} sm={6} md={4} lg={3} key={game.id}>
+          <GameCard game={game} />
+        </Grid>
+      ))}
+    </Grid> */}
+TEST 00000 
+
+
+<div> FUN  
+
+</div>
+
+    </div>)
 }
+

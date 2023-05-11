@@ -3,7 +3,7 @@ import "./App.css";
 import axios from "axios";
 import { motion } from "framer-motion";
 // import GameList from "./GameList";
-import Background from "./Background";
+import { Background } from "./components/Background";
 import { Navbar } from "./components/Navbar";
 import { GameList } from "./components/GameList";
 import { ApiResults } from "./components/ApiResults";
@@ -42,10 +42,11 @@ function App() {
     <div className="App">
       {/* <Spinner /> */}
       <Navbar />
+      
       <Background />{" "}
-      <img src="https://www.iceturtlestudios.com/wp-content/uploads/2022/07/logo512x512-e1656703794928.png"></img>
-      <h1>Ice Turtle Time !!! </h1>
+     
       <ApiResults2 />
+      <GameList/>
       <ApiResults />
     </div>
   );

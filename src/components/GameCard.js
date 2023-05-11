@@ -1,9 +1,10 @@
 import { Card, CardContent, CardMedia, Typography } from "@material-ui/core";
 
-function GameCard({ game }) {}
-export default GameCard;
+export const GameCard = ({ games }) => {
+    return (
+      <div>
 
-//   return (
 //     <Card>
 //       <CardMedia component="img" height="200" image={game.background_image} />
-//       <
+//       </Card>
+</div>)}

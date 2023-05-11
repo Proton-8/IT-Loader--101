@@ -1,11 +1,83 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
+
+
 
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
 } */
+* {
+  margin: 0;
+  padding: 10px;
+}
+:root {
+  --light-color: #f4f4f4;
+  --off-white: #eee;
+  --dark-grey: #333;
+}
+
+body {
+  font-family: 'PT Sans' sans-serif;
+  background-color: #252529;
+  margin: 0;
+  color: #fff;
+  line-height: 1.6;
+}
+
+a {
+text-decoration: none;
+color: #cccccc;
+}
+
+/* Nav */
+
+nav {
+  height: 10%;
+  width: 100%;
+  background: var(--dark-grey);
+  color: var(--off-white);
+  position: fixed;
+  padding-bottom: 20pt;
+  z-index: 1;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  color: var(--off-white);
+}
+
+nav a:hover {
+color: var(--dark-grey);
+}
+
+nav li:hover {
+  background-color: var(--off-white);
+}
+
+nav a#openup {
+  display: none;
+}
+
+
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -15,7 +87,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,7 +146,7 @@ body {
     #23d5ab
   ); 
   
-  background-size: 200% 200%;
+  background-size: 100% 50%;
 }
 
 .logo{
